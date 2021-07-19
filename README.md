@@ -1,5 +1,11 @@
 Fibonacci Generator project for Reserve Trust.
 
+Project comes with three functions: 
+
+1) Takes an inputted number and generates the Fibonacci sequence value of that number (i.e. 11 = 89, 12 = 144). Value and input number are then recorded in a Postgres database.
+2) Takes an inputted number and returns the number of memorized Fibonacci values that are smaller than the inputted value
+3) Clears the database
+
 Project built in Golang programming Language and connects with Postgres Database for functionality.
 
 Project includes "FibonacciAPI.go" file which consists of the program itself, along with the "FibonacciAPI_test.go" file which acts as the file tester. Test file includes some previous test cases, these will need to be changed for the second function depending on what is currently in the database. Project includes Make file to allow for easy dependency download, program running, and testing. 
